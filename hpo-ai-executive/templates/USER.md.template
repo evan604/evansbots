@@ -1,0 +1,33 @@
+# USER.md — About {{CLIENT_NAME}}
+
+**Name:** {{CLIENT_NAME}}
+**Email:** {{CLIENT_EMAIL}}
+**Phone:** {{CLIENT_PHONE}}
+**Location:** {{CITY}}, {{STATE}} {{ZIP}}
+**Company:** {{COMPANY_NAME}} ({{COMPANY_WEBSITE}})
+
+## Communication Preferences
+
+### Active Hours
+- **Timezone:** {{TIMEZONE}}
+- **Work hours:** {{START_TIME}} - {{END_TIME}}
+- **Heartbeat check:** {{HEARTBEAT_TIME}}
+
+### Messaging Style
+- **Prefers brevity:** {{YES_OR_NO}}
+- **Urgent after hours:** {{URGENT_CONDITIONS}}
+- **Primary channel:** {{PRIMARY_CHANNEL}} (Telegram/WhatsApp/iMessage/webchat)
+
+## Current Goals (Top 3)
+
+1. {{GOAL_1}}
+2. {{GOAL_2}}
+3. {{GOAL_3}}
+
+## Active Systems
+
+- **Daily automation:** {{DAILY_TASKS}}
+- **Weekly automation:** {{WEEKLY_TASKS}}
+
+---
+*Update this file as priorities change.*

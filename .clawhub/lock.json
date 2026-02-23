@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "apple-reminders": {
+      "version": "1.0.0",
+      "installedAt": 1771443601223
+    },
+    "imsg": {
+      "version": "1.0.0",
+      "installedAt": 1771443603063
+    },
+    "sag": {
+      "version": "1.0.0",
+      "installedAt": 1771443607998
+    }
+  }
+}

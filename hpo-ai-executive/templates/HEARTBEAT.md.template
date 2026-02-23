@@ -1,0 +1,70 @@
+# HEARTBEAT.md — Daily Automation
+
+## Filter System
+Use the heartbeat filter to determine if/when to run.
+
+## Time Windows ({{TIMEZONE}})
+
+### 🌅 Quiet Hours: Before {{MORNING_START}}
+**Action:** SKIP — No messages.
+
+### {{MORNING_START}} - {{MORNING_END}}: Morning Briefing
+**Action:** PROCEED:morning
+**Check:**
+- Weather in {{CITY}}
+- Today's calendar events
+- Pending todos from yesterday
+
+### {{MIDDAY_START}} - {{MIDDAY_END}}: Midday Check
+**Action:** PROCEED:midday
+**Check:**
+- Any urgent items
+- Follow-ups needed
+
+### {{AFTERNOON_START}} - {{AFTERNOON_END}}: Action Items
+**Action:** PROCEED:action_items
+**Task:** Review and execute pending tasks
+
+### {{EVENING_START}}+: Evening Wrap
+**Action:** PROCEED:final_check (once per day)
+**Task:** Quick summary of day's accomplishments
+
+---
+
+## Custom Windows (Optional)
+
+Add business-specific windows here:
+
+### Example: {{CUSTOM_WINDOW_NAME}}
+**Window:** PROCEED:{{CUSTOM_WINDOW_ID}}
+**Time:** {{CUSTOM_TIME}}
+**Task:** {{CUSTOM_TASK}}
+
+---
+
+## Subagent Protocol
+
+For parallel tasks, spawn:
+```javascript
+sessions_spawn({
+  task: "[ACTION] — report back with [FORMAT]",
+  label: "brief-descriptive-name",
+  runTimeoutSeconds: 300,
+  thinking: "off"
+})
+```
+
+Don't poll. Let them report back.
+
+---
+
+## Notification Channels
+
+| Window | Primary Channel | Backup |
+|--------|-----------------|--------|
+| morning | {{PRIMARY_CHANNEL}} | {{BACKUP_CHANNEL}} |
+| urgent | {{URGENT_CHANNEL}} | {{URGENT_BACKUP}} |
+
+---
+
+*Keep each heartbeat under 500 tokens. Use subagents for legwork.*

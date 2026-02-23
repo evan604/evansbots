@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Highland Private Office — Demo Page</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+        .container {
+            max-width: 800px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(90deg, #e94560, #ff6b6b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .tagline {
+            font-size: 1.25rem;
+            color: #a0a0a0;
+            margin-bottom: 2rem;
+        }
+        .card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 16px;
+            padding: 1.5rem;
+            margin: 1rem 0;
+            text-align: left;
+        }
+        .card h3 {
+            color: #e94560;
+            margin-bottom: 0.5rem;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        .service-badge {
+            background: rgba(233, 69, 96, 0.1);
+            border: 1px solid rgba(233, 69, 96, 0.3);
+            border-radius: 8px;
+            padding: 1rem;
+            font-size: 0.9rem;
+        }
+        .footer {
+            margin-top: 3rem;
+            color: #666;
+            font-size: 0.85rem;
+        }
+        .powered-by {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(255,255,255,0.05);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            margin-top: 1rem;
+        }
+        .emoji { font-size: 1.2rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Highland Private Office</h1>
+        <p class="tagline">Executive Services & Family Office Solutions</p>
+        
+        <div class="card">
+            <h3>🐺 Live from here.now</h3>
+            <p>This page was published via <strong>here.now</strong> in under 5 seconds. No signup, no configuration, no friction.</p>
+            <p style="margin-top: 1rem; color: #888;">Published: <span id="timestamp"></span></p>
+        </div>
+
+        <div class="services">
+            <div class="service-badge">📊 Wealth Management</div>
+            <div class="service-badge">🏢 Business Operations</div>
+            <div class="service-badge">🎯 Strategic Advisory</div>
+            <div class="service-badge">🤖 AI Integration</div>
+        </div>
+
+        <div class="footer">
+            <p>Winter Park, FL</p>
+            <div class="powered-by">
+                <span>Published with</span>
+                <span class="emoji">⚡</span>
+                <strong>here.now</strong>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        document.getElementById('timestamp').textContent = new Date().toLocaleString('en-US', {
+            weekday: 'long',
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit'
+        });
+    </script>
+</body>
+</html>
