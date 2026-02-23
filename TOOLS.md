@@ -34,6 +34,8 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 ### Email / AgentMail
 - Address: tazer@agentmail.to
 - API Key: `am_us_9d4e7bb9137551bed1f1ac3982d5f28ee962ee85486802330f1d3d8797ec501c`
+- Send script: `/Users/evanborenstein/clawd/scripts/send_email.py`
+- API Endpoint: `POST https://api.agentmail.to/v0/inboxes/{inbox_id}/messages/send`
 
 ---
 
