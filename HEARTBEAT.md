@@ -12,7 +12,6 @@ Use the heartbeat filter to determine if/when to run.
 **Action:** PROCEED:morning
 
 **Check:**
-- Weather in Winter Park, FL
 - Today's calendar events
 - Pending todos from yesterday
 

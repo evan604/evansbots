@@ -25,7 +25,8 @@
 - **My role:** AI Executive (still being defined)
 
 ### Active Systems
-- **Daily:** Morning heartbeat with weather, calendar, tasks
+- **Daily:** Morning heartbeat with calendar, tasks
+- **Weather:** User has own weather updates (skip)
 - **Weekly:** TBD as we figure out the role
 
 ### Personal Context
