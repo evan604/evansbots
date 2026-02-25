@@ -54,7 +54,8 @@ Your AI agent is coming. Probably sooner than you think.
 
 1/ Your AI agent is coming. Probably sooner than you think.
 
-2/ Remember when the iPhone launched and everyone said "why would anyone need this?"
+2/ 📱 Remember when the iPhone launched and everyone said "why would anyone need this?"
+[IMAGE: Steve Jobs keynote 2007]
 
 3/ Or when the App Store arrived and people called it a toy?
 
@@ -114,7 +115,7 @@ What's the one task you'd hand off to an AI if you could?
 
 **Format:** Carousel (5-7 slides)
 
-**Slide 1:** "Your AI agent is coming" + futuristic phone/robot visual
+**Slide 1:** "Your AI agent is coming" + futuristic phone/AI visual
 
 **Slide 2:** "Remember when smartphones were just for calls?"
 
@@ -129,6 +130,13 @@ What's the one task you'd hand off to an AI if you could?
 **Slide 7:** "What's your one task to delegate?" + CTA
 
 **Hashtags:** #AI #FutureIsNow #TechTrends #ProductivityHacks
+
+---
+
+## Media Assets
+
+### Tweet Images:
+- **Tweet 2:** Steve Jobs keynote 2007 - https://media.wired.com/photos/5952d4ef13c51068e4907791/3:2/w_2560,c_limit/iPhone-AP_070109070253.jpg
 
 ---
 
