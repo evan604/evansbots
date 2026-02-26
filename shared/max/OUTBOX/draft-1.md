@@ -36,3 +36,6 @@ Everything else is a chatbot with a resume.
 ---
 
 **Note:** These are rough drafts. Happy to refine tone, length, or topic based on feedback.
+-e 
+---
+*Disclaimer: This content is for informational purposes only and does not constitute financial, investment, or legal advice. Consult with a qualified professional before making financial decisions.*

@@ -141,3 +141,6 @@ What's the one task you'd hand off to an AI if you could?
 ---
 
 *Draft by Max - Ready for review*
+-e 
+---
+*Disclaimer: This content is for informational purposes only and does not constitute financial, investment, or legal advice. Consult with a qualified professional before making financial decisions.*

@@ -112,3 +112,6 @@ That's how you build a lean, mean, AI-powered business.
 ---
 
 *Draft by Max*
+-e 
+---
+*Disclaimer: This content is for informational purposes only and does not constitute financial, investment, or legal advice. Consult with a qualified professional before making financial decisions.*

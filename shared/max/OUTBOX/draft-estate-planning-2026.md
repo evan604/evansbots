@@ -130,3 +130,6 @@ Don't wait until 2026 to figure this out. The exemption you have today is gone t
 ---
 
 *Draft by Max*
+-e 
+---
+*Disclaimer: This content is for informational purposes only and does not constitute financial, investment, or legal advice. Consult with a qualified professional before making financial decisions.*

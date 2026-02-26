@@ -113,3 +113,6 @@ If you've been thinking about an exit, the next year might be your best chance.
 ---
 
 *Draft by Max*
+-e 
+---
+*Disclaimer: This content is for informational purposes only and does not constitute financial, investment, or legal advice. Consult with a qualified professional before making financial decisions.*

@@ -106,3 +106,6 @@ The question isn't if rates fall. It's where you'll be positioned when they do.
 ---
 
 *Draft by Max*
+-e 
+---
+*Disclaimer: This content is for informational purposes only and does not constitute financial, investment, or legal advice. Consult with a qualified professional before making financial decisions.*
