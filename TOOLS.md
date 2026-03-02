@@ -48,5 +48,6 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 - Full read/write access
 
 ### OpenClaw
-- Telegram: connected and paired
+- Telegram User ID: 8222300690
+- Telegram Pairing Code: FWPB5SLV (pending approval)
 - Webchat: default channel
